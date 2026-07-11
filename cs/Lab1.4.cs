@@ -1,0 +1,12 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double x = 3;
+        double y = 5;
+        double h = x * y + Math.Sin(x) / Math.Abs(1 - y) * Math.Log(x);
+        Console.WriteLine(h);
+    }
+}
